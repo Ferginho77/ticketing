@@ -1,0 +1,15 @@
+JOB DESK MASING MASING ROLE
+Admin :
+-Membuat Tiket menggunakan Konsep Create pada php
+Owner :
+-Melihat Data user menggunakan konsep Select pada php
+-Melihat Data Transaksi menggunakan konsep Select pada php
+User :
+-Membeli tiket pada form menggunakan menthod POST pada php
+-Melakukan Transaksi menggunakan method POST dan menggunakan API dari aplikasi bank
+-Memiliki tiket menggunakan metode Select pada php
+
+SISTEM BACKEND
+-Menggunakan metode POST pada php untuk bagian pembelian dan penambahan Admin
+-Menggunakan metode CRUD yang dimiliki php
+-Menggunakan API dari aplikasi E Wallet Dana dan Bank Mandiri

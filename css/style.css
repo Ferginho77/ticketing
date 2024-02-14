@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-image: url("../img/wallpaper.jpg");
+  background-size: cover; /* untuk menutupi seluruh area kontainer */
+  position: relative; /* untuk posisi gambar di tengah */
+  height: 100vh; /* untuk mengisi seluruh tinggi viewport */
+  padding: 0 8%;
+  min-height: 100vh;
+}
+
+.launch-time {
+  display: flex;
+}
+.launch-time div {
+  flex-basis: 100px;
+}
+.launch-time div p {
+  font-size: 60px;
+  margin-bottom: -14px;
+}
