@@ -1,10 +1,8 @@
-<?php require 'layouts/navbar.html'; ?>
-    <div class="container text-light mt-5 text-center">
-        <h1>Arctic Monkeys Anniversary Concert</h1>
-        <h3 class="text-warning">Get Ready For The Concert</h3>
-    </div>
-        <!-- Counter Time -->
-        <div class="content text-light mt-5">
+<?php require '../layouts/admin.html';?>
+<div class="container text-center text-light">
+<h1 class="mt-5">Halo Admin Selamat Bekerja</h1>
+<h3 class="mt-2">KONSER AKAN DIMULAI DALAM :</h3>
+<div class="content mt-5 text-center">
             <div class="launch-time">
                     <div class="">
                     <p id="days">00</p>
@@ -23,8 +21,6 @@
                     <span>Seconds</span>
                     </div>
                 </div>
-        </div>   
-
-    <a href="#" class="btn btn-outline-warning mt-3">Get Ticket</a>
-    
-<?php require 'layouts/footer.html'?>
+        </div>
+</div>
+<button class="btn btn-light text-left mt-3">CEK DATA</button>   

@@ -2,15 +2,18 @@
   margin: 0;
   padding: 0;
   font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
 }
 
 body {
   background-image: url("../img/wallpaper.jpg");
   background-size: cover; /* untuk menutupi seluruh area kontainer */
-  position: relative; /* untuk posisi gambar di tengah */
-  height: 100vh; /* untuk mengisi seluruh tinggi viewport */
-  padding: 0 8%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
   min-height: 100vh;
+  flex-direction: column;
 }
 
 .launch-time {

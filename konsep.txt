@@ -13,3 +13,4 @@ SISTEM BACKEND
 -Menggunakan metode POST pada php untuk bagian pembelian dan penambahan Admin
 -Menggunakan metode CRUD yang dimiliki php
 -Menggunakan API dari aplikasi E Wallet Dana dan Bank Mandiri
+-Melakukan payment gateway dari kedua apk tersebut
