@@ -19,8 +19,8 @@
 </head>
 <body class="body-login">
 <div class="position-absolute top-50 start-50 translate-middle">
-  <img src="img/arc.jpg.png" width="110" height="80" class="mb-3 top-50 start-50">
-      <div class="card" style="width: 18rem;">
+  <img src="img/arc.jpg.png" width="110" height="80" class="mb-3 position-absolute top-0 start-50 translate-middle">
+      <div class="card mt-5" style="width: 18rem;">
         <div class="card-header text-center">
           <h1>Login</h1>
         </div>
@@ -29,7 +29,7 @@
               <input type="text" placeholder="Username"><i data-feather="user"></i>
             </div>
             <div>
-               <input type="password" id="password" placeholder="Password"><i data-feather="eye" id="eye"></i>
+               <input type="password" id="password" placeholder="Password"><i data-feather="eye" id="eye" onclick="showHide();"></i>
             </div>
           
           <button type="button" class="btn btn-dark text-center mt-5">LOGIN</button>
